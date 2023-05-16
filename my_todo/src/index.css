@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 1100px) and (min-width: 200px) {
+    .bg {
+       flex-direction: column;
+       height: auto;
+       height: 53rem;
+    }
+
+    .bgImage{
+        margin-bottom: 50px;
+         
+    }
+}
